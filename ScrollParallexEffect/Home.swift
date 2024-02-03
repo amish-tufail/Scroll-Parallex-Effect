@@ -29,16 +29,34 @@ struct Home: View {
                         .aspectRatio(contentMode: .fill)
                         .frame(width: size.width, height: size.height)
                 }
-                .frame(height: 300.0)
+                .frame(height: 400.0)
                 dummySection(title: "Social Media")
                 dummySection(title: "Sales", isLong: true)
                 ParallaxImageView(useFullWidth: true) { size in
-                    Image(.imageOne)
+                    Image(.imageThree)
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: size.width, height: size.height)
                 }
-                .frame(height: 300.0)
+                .frame(height: 400.0)
+                dummySection(title: "Social Media")
+                dummySection(title: "Sales", isLong: true)
+                ParallaxImageView(useFullWidth: true) { size in
+                    Image(.imageTwo)
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: size.width, height: size.height)
+                }
+                .frame(height: 500.0)
+                dummySection(title: "Social Media")
+                dummySection(title: "Sales", isLong: true)
+                ParallaxImageView(useFullWidth: true) { size in
+                    Image(.imageThree)
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: size.width, height: size.height)
+                }
+                .frame(height: 500.0)
                 dummySection(title: "Social Media")
                 dummySection(title: "Sales", isLong: true)
             }
